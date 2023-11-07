@@ -77,11 +77,14 @@ ul .menu-header-left-itens{
 ============================================================================*/
 .section-slide-img{
     width: 99.2%;
-    height: 91vh;
+    height: 75vh;
     margin: 0 auto;
-    background-image: url(../img/bg-section-principal.avif);
+    background-image: url(/img/Xbox-Slide.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    
 }
 
 .div-conteiner{
