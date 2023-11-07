@@ -2,8 +2,11 @@
 body{
     font-family: sans-serif;
 }
+/*Body*/
 
-/*Header*/
+/*==========================================================================
+===============================  Header  ===================================
+============================================================================*/
 header{
     width: 100%;
     height: 54px;
@@ -11,12 +14,13 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.menu-right{
+/*Menu Esquerdo*/
+.menu-left{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.area-logo{
+.header-logo{
     width: 137px;
     height: 54px;
     display: flex;
@@ -29,22 +33,24 @@ header{
     height: 23px;
 }
 
-ul.area-menu-ul{
+ul .menu-header-left-itens{
     display: flex;
     gap: 5px;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-.area-menu-ul li{
+.menu-header-left-itens li{
     display: inline-block;
     padding:16px 8px 10px;
     margin-right: 10px;
     font-size: 14px;
 
 }
+/*Menu Esquerdo*/
 
-.menu-left{
+/*Menu Direito*/
+.menu-header-right{
     width: 280px;
     margin-right: 70px;
     display: flex;
@@ -53,13 +59,23 @@ ul.area-menu-ul{
     gap: 0;
 }
 
-.menu-left .perfil-svg{
+.menu-header-right .perfil-svg{
     width: 32px;
     height: 32px;
     font-weight: 100;
 }
+/*Menu Direito*/
+/*==========================================================================
+===============================  Header  ===================================
+============================================================================*/
 
-.section-secundary{
+
+
+
+/*==========================================================================
+=======================  Slide Principal de Imagens  =======================
+============================================================================*/
+.section-slide-img{
     width: 99.2%;
     height: 91vh;
     margin: 0 auto;
@@ -97,15 +113,18 @@ ul.area-menu-ul{
     padding: 10px;
     font-weight: 600;
 }
+/*==========================================================================
+=======================  Slide Principal de Imagens  =======================
+============================================================================*/
 
 
 
 
 
 
-
-/*Formatações Gerais*/
-
+/*==========================================================================
+=========================  Formatações Gerais   ============================
+============================================================================*/
 ul{
     list-style: none;
 }
@@ -113,3 +132,6 @@ a{
     text-decoration: none;
     color: #262626;
 }
+/*==========================================================================
+=========================  Formatações Gerais   ============================
+============================================================================*/
