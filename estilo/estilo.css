@@ -1,6 +1,6 @@
 /*Body*/
 body{
-    font-family: sans-serif;
+    font-family: "Segoe UI";
 }
 /*Body*/
 
@@ -62,7 +62,6 @@ ul .menu-header-left-itens{
 .menu-header-right .perfil-svg{
     width: 32px;
     height: 32px;
-    font-weight: 100;
 }
 /*Menu Direito*/
 /*==========================================================================
