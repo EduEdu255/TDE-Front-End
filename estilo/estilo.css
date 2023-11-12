@@ -131,13 +131,78 @@ ul .menu-header-left-itens{
 ============================================================================*/
 
 
+/*==========================================================================
+=======================  Slide Controler =======================
+============================================================================*/
+section .slide-controler{
+    display: flex;
+    height: 15px;
+    
+    gap: 35px;
+    
+}
+.section-slide-controler{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction:initial;
+    align-items: center;
+    
+}
+section .slide-controler .circulo-vazio{
+    height: 10px;
+    
+    
+}
+section .slide-controler .circulo-preenchido{
+    height: 10px;
+    
+    
+}
+section .slide-controler .play{
+    height: 18px;
+   
+    
+}
+    
+
+
+/*==========================================================================
+=======================  Slide Controler =======================
+============================================================================*/
+
 
 /*==========================================================================
 =======================  3 Icones depois do slide  =======================
 ============================================================================*/
-.tres-icons-svg{
+.tres-icons-svg .icons-svg ul{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 100px;
+    
 
 }
+.tres-icons-svg .icons-svg ul li{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.tres-icons-svg .icons-svg ul li .teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.tres-icons-svg .icons-svg ul li img{
+    height: 45px;
+    width: 45px;
+}
+
 .icons-svg{
 
 }
