@@ -249,8 +249,28 @@ section .slide-controler .play{
 /*==========================================================================
 ======================= Menu xbox e bing =======================
 ============================================================================*/
-.menu-div-xbox-bing{
-
+.div-itens-menu{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+section .item-xbox-series-x{
+    height: 400px;
+    width: 297px;
+  
+}
+section .item-xbox-series-x h2{
+    font-weight: 500;
+}
+section .item-xbox-series-x a{
+    color:#6c0d39;
+    font-weight: 500;
+}
+section .item-xbox-series-x a img {
+    width: 8px;
+    padding-left: 5px;
+   
 }
 /*==========================================================================
 ======================= Menu xbox e bing =======================
@@ -270,7 +290,10 @@ section .slide-controler .play{
 /*==========================================================================
 ======================= Parte para negócios  =======================
 ============================================================================*/
-.para-negocios{
+.menu-div-xbox-bing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 /*==========================================================================
