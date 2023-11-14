@@ -250,6 +250,7 @@ section .slide-controler .play{
 ======================= Menu xbox e bing =======================
 ============================================================================*/
 .div-itens-menu{
+    width: 90%;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -401,6 +402,7 @@ section .item-xbox-series-x a img {
     height: 100%;
     background-image: url(../img/bg-atualizar-windows-11.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -451,8 +453,13 @@ section .item-xbox-series-x a img {
 /*==========================================================================
 ======================= Parte para negócios  =======================
 ============================================================================*/
+.area-para-negocios{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+}
 .para-negocios{
-
+    font-weight: 550;;
 }
 /*==========================================================================
 ======================= Parte para negócios  =======================
