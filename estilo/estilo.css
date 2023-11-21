@@ -89,12 +89,17 @@ ul .menu-header-left-itens{
     width: 99.6%;
     height: 83.5vh;
     margin: 0 auto;
-    background-image: url(/img/Xbox-Slide.png);
+    background-image: url(/img/Jogos-microsoft.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     
+    
+}
+.blackfriday{
+    color: #6c0d39;
+    font-weight: 645;
 }
 
 .div-conteiner{
@@ -113,7 +118,7 @@ ul .menu-header-left-itens{
 }
 .div-conteiner .txt-xbox-s {
    margin-bottom: 1.5rem;
-   margin-top: -10px;
+   
 }
 .div-conteiner .txt-xbox-s p{
     line-height: 30px;
@@ -125,6 +130,19 @@ ul .menu-header-left-itens{
     font-size: 16px;
     padding: 10px;
     font-weight: 600;
+    border-radius: 2px;
+
+}
+.link-seta{
+    margin-top: 25px;
+    font-weight: 500;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.link-seta-svg{
+    height: 13px;
 }
 /*==========================================================================
 =======================  Slide Principal de Imagens  =======================
@@ -136,7 +154,6 @@ ul .menu-header-left-itens{
 section .slide-controler{
     display: flex;
     height: 15px;
-    
     gap: 35px;
     
 }
@@ -459,8 +476,17 @@ section .item-xbox-series-x a img {
     justify-content: flex-start;
 }
 .para-negocios{
+<<<<<<< HEAD
     font-weight: 550;;
+=======
+    justify-content: start;
+    width: 90%;
+    padding: 2px;
+
+
+>>>>>>> 655d6a2 (Atualização do Slide de Imagem)
 }
+
 /*==========================================================================
 ======================= Parte para negócios  =======================
 ============================================================================*/
