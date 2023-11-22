@@ -475,17 +475,10 @@ section .item-xbox-series-x a img {
     display: flex;
     justify-content: flex-start;
 }
-.para-negocios{
-<<<<<<< HEAD
-    font-weight: 550;;
-=======
-    justify-content: start;
-    width: 90%;
-    padding: 2px;
-
-
->>>>>>> 655d6a2 (Atualização do Slide de Imagem)
+.area-para-negocios .para-negocios{
+    font-weight: 600;
 }
+
 
 /*==========================================================================
 ======================= Parte para negócios  =======================
