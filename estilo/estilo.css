@@ -1,4 +1,3 @@
-
 /*Body*/
 body{
     font-family: "Segoe UI";
@@ -403,6 +402,8 @@ section .item-xbox-series-x a img {
 .area-para-negocios .para-negocios{
     font-weight: 600;
 }
+
+
 .menu-div-xbox-bing{
     display: flex;
     flex-direction: column;
