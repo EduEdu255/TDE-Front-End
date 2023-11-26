@@ -628,7 +628,7 @@ a{
 
 
 
-@media(max-width:672px){
+@media screen and (max-width:672px){
 
     /*Body*/
 body{
@@ -639,73 +639,17 @@ body{
 /*==========================================================================
 ===============================  Header  ===================================
 ============================================================================*/
-header{
-    width: 100%;
-    height: 54px;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-/*Menu Esquerdo*/
-.menu-left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header-logo{
-    width: 137px;
-    height: 54px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60px;
-    margin-bottom: 5px;
-
-}
-.img-logo{
-    width: 108px;
-    height: 23px;
-}
-.menu-header-left{
-    margin-left: -30px;
-    margin-bottom: 5px;
-    padding-right: -5px;
-}
-ul .menu-header-left-itens{
-    display: flex;
-    gap: 5px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    
-   
+.menu-header-left-itens{
+    display: none;
 }
 
-.menu-header-left-itens li{
-    display: inline-block;
-    padding:16px 8px 10px;
-    margin-right: 3px;
-    font-size: 13.2px;
-
+.section-slide-img{
+    background-image: url(/img/Microsoft-Slide-Img-Mobile.jpg);
 }
-/*Menu Esquerdo*/
-
-/*Menu Direito*/
-.menu-header-right{
-    width: 280px;
-    margin-right: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 0;
+.toda-a-microsoft-seta,.lupa-ok{
+    display: none;
 }
 
-.menu-header-right .perfil-svg{
-    width: 32px;
-    height: 32px;
-    font-weight: 100;
-}
-/*Menu Direito*/
 /*==========================================================================
 ===============================  Header  ===================================
 ============================================================================*/
