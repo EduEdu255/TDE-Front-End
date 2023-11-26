@@ -89,7 +89,7 @@ ul .menu-header-left-itens{
     width: 99.6%;
     height: 83.5vh;
     margin: 0 auto;
-    background-image: url(/img/Jogos-microsoft.jpg);
+    background-image: url();
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -639,15 +639,33 @@ body{
 /*==========================================================================
 ===============================  Header  ===================================
 ============================================================================*/
-.menu-header-left-itens{
+
+.menu-header-left-itens .toda-a-microsoft-seta,.lupa-ok,.header-logo,.shopping-svg, .perfil-svg,.section-main header{
     display: none;
+}
+section .header-mobile{
+    display: flex;
+    justify-content:space-between;
+    
+    
 }
 
-.section-slide-img{
-    background-image: url(/img/Microsoft-Slide-Img-Mobile.jpg);
+.header-logo-mobile{
+    height: 23px;
+    
 }
-.toda-a-microsoft-seta,.lupa-ok{
-    display: none;
+
+.header-mobile  div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.header-mobile  div .shopping-svg-mobile{
+    height: 15px;
+    padding-right: 15px ;
 }
 
 /*==========================================================================
@@ -660,65 +678,32 @@ body{
 /*==========================================================================
 =======================  Slide Principal de Imagens  =======================
 ============================================================================*/
-.section-slide-img{
-    width: 99.6%;
-    height: 83.5vh;
-    margin: 0 auto;
-    background-image: url(/img/Jogos-microsoft.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    
-    
-}
-.blackfriday{
-    color: #6c0d39;
-    font-weight: 645;
-}
-
 .div-conteiner{
-    width: 412px;
-    margin-left: 120px;
-    margin-bottom: 20px;
+    display: none;
 }
-
-.div-conteiner .titulo-pri,.div-conteiner .txt-xbox-s
-,.div-conteiner .div-btn{
-    width: 100%;
+.slide-de-img-mobile{
+    margin: 5px;
+    border: 5cm;
+    
 }
-.div-conteiner .titulo-pri h2{
-    font-weight: 600;
-    font-size: 28px;
-}
-.div-conteiner .txt-xbox-s {
-   margin-bottom: 1.5rem;
-   
-}
-.div-conteiner .txt-xbox-s p{
-    line-height: 30px;
- }
-
-.div-conteiner .div-btn .btn-compra{
-    background-color: #000;
-    color: #FFF;
-    font-size: 16px;
-    padding: 10px;
-    font-weight: 600;
-    border-radius: 2px;
-
-}
-.link-seta{
-    margin-top: 25px;
-    font-weight: 500;
-    color: #000000;
+.microsoft-img-slide-mobile{
+    height: 55vh;
+    width: 96vw;
     display: flex;
-    align-items: center;
-    gap: 10px;
+    justify-items: center;
+    flex-direction: column;
+
 }
-.link-seta-svg{
-    height: 13px;
+.texto-slide-de-img-mobile{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: ;
 }
+.buttons-slide-mobile{
+    display: flex;
+    
+}
+
 /*==========================================================================
 =======================  Slide Principal de Imagens  =======================
 ============================================================================*/
