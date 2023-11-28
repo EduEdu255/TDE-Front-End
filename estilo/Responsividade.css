@@ -849,16 +849,19 @@ section .slide-controler .play{
 /*==========================================================================
 ======================= Menu xbox e bing =======================
 ============================================================================*/
+
 .div-itens-menu{
     width: 90%;
     display: flex;
     justify-content: center;
     gap: 15px;
-    
+    flex-wrap: wrap;
+ 
 }
 section .item-xbox-series-x{
-    height: 400px;
-    width: 297px;
+    height: 60vh;
+    width: 100%;
+
   
 }
 section .item-xbox-series-x h2{
@@ -873,6 +876,11 @@ section .item-xbox-series-x a img {
     padding-left: 5px;
    
 }
+.item-xbox-series-x img{
+    width: 100%;
+}
+height: 400px;
+    width: 297px;
 /*==========================================================================
 ======================= Menu xbox e bing =======================
 ============================================================================*/
