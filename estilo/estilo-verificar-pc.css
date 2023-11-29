@@ -190,6 +190,12 @@ figure{
     margin-top: 45px;
     padding: 45px;
 }
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
 
 /*==========================================================================
 ==========================  Section-principal  ============================
