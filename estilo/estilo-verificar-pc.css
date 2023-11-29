@@ -196,6 +196,7 @@ figure{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    
 }
 .header-2{
     display: flex;    
@@ -235,8 +236,9 @@ header ul{
 ============================================================================*/
 section .mais-facil-de-usar{
     display: flex;
-
+    gap: 75px;
     justify-content: space-evenly;
+    margin-left: 85px;
 
     
 }
@@ -290,6 +292,7 @@ section .mais-facil-de-usar{
     justify-content: space-evenly;  
     flex-direction:row-reverse; 
     margin-right: 85px;
+    gap: 75px;
 }
 .mais-facil-de-ser-produtivo figure img{
     height: 100%;
