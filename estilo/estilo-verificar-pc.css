@@ -179,6 +179,7 @@ figure{
 .section-principal{
     background: linear-gradient(to bottom, rgb(249,249,249), );
     margin-top: 45px;
+    padding: 45px;
 }
 
 /*==========================================================================
@@ -187,10 +188,10 @@ figure{
 
 
 /*==========================================================================
-==========================  Mais Fácil de Usar  ============================
+==========================  Mais Fácil de Usar Header  ============================
 ============================================================================*/
 
-.mais-facil-de-usar{
+.mais-facil-de-usar-header{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -229,14 +230,79 @@ header ul{
 
 }
 /*==========================================================================
+==========================  Mais Fácil de Usar Header  ============================
+============================================================================*/
+section .mais-facil-de-usar{
+    display: flex;
+
+    justify-content: space-evenly;
+
+    
+}
+.mais-facil-de-usar-texto{
+    width: 45%;
+    
+}
+
+.mais-facil-de-usar-conteudo{
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    
+
+}
+.linha-fade{
+    background-color: #1c7fca;
+    width: 15px;
+    height: 400px;
+    margin-right: 25px;
+}
+
+.mais-facil-de-usar figure img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.mais-facil-de-usar figure{
+    width: 43%;
+}
+.mais-facil-de-usar-conteudo-divs div h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+.mais-facil-de-usar-h1 h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/*==========================================================================
 ==========================  Mais Fácil de Usar  ============================
 ============================================================================*/
+
 
 /*==========================================================================
 ======================   Mais Fácil de ser produtivo  ======================
 ============================================================================*/
 .mais-facil-de-ser-produtivo{
+    display: flex;
+    justify-content: space-evenly;  
+    flex-direction:row-reverse; 
+    margin-right: 85px;
+}
+.mais-facil-de-ser-produtivo figure img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
 
+}
+.mais-facil-de-ser-produtivo figure{
+    width: 43%;
+}
+.mais-facil-de-ser-produtivo-conteudo{
+    display: flex;
+    justify-content: center;
+    width: 550px;
 }
 /*==========================================================================
 ======================   Mais Fácil de ser produtivo  ======================
