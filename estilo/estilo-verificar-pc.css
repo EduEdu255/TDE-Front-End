@@ -82,7 +82,9 @@ ul li a{
     justify-content: space-around;
     gap: 0;
 }
-
+.menu-header-right a{
+    color: #262626;
+}
 .menu-header-right .perfil-svg{
     width: 32px;
     height: 32px;
@@ -139,6 +141,12 @@ figure{
     gap: 15px;
 }
 
+.divisor-hori{
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(to right, #fff, #9198e5);
+    display: inline-block;
+}
 .area-conheca-windows h1{
    font-size: 58px;
    font-weight: 500;
@@ -293,6 +301,7 @@ section .mais-facil-de-usar{
     flex-direction:row-reverse; 
     margin-right: 85px;
     gap: 75px;
+    margin-bottom: 20px;
 }
 .mais-facil-de-ser-produtivo figure img{
     height: 100%;
@@ -308,9 +317,44 @@ section .mais-facil-de-usar{
     justify-content: center;
     width: 550px;
 }
+
+.mais-facil-de-ser-produtivo-conteudo p a{
+    text-decoration: underline;
+}
+
+.area-btn-btn{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #288dda;
+    border-radius: 6px;
+    padding: 10px 40px;
+}
+sup a{
+    text-decoration: underline;
+    font-size: 11px;
+}
 /*==========================================================================
 ======================   Mais Fácil de ser produtivo  ======================
 ============================================================================*/
+
+/*==========================================================================
+======================   Mais Fácil de permanecer Seguro =====================
+============================================================================/
+
+.mais-facil-de-usar-conteudo-divs button{
+    background-color: rgb(0,120,212);
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/==========================================================================
+======================   Mais Fácil de permanecer Seguro =====================
+============================================================================/
 
 /*==========================================================================
 ======================   Mais Fácil de jogar =============================
